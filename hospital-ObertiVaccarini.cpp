@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
-#include <stdio.h>
 
 using namespace std;
+
 struct pacientes {
 	char nombre[20];
 	int edad;
@@ -237,7 +237,7 @@ void validacionDNI (pacientes datosPacientes[100][100], int i, int j) {
 	if (!datosPacientes[i][j].DNI || datosPacientes[i][j].DNI<0 || datosPacientes[i][j].DNI<1000000) {
 		cout<<"Por favor, ingrese un DNI valido."<<endl;
 		cin.clear();
-		cin.ignore();;
+		cin.ignore();
 	}
 }
 
