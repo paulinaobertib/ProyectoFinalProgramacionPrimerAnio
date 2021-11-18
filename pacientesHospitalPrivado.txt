@@ -1,0 +1,8 @@
+La cantidad de pacientes internados es de: 1
+
+DATOS DEL PACIENTE QUE SE ENCUENTRA EN LA 1ø FILA Y LA 1ø COLUMNA DE CAMAS.
+Nombre: vic
+Edad: 5
+DNI: 3
+Dias internado: 5
+

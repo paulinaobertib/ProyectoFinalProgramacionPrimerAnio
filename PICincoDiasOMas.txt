@@ -1,0 +1,2 @@
+Nombres de los pacientes que con mas de 5 dias internados:
+vic
