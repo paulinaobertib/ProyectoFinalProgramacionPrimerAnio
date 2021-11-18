@@ -205,7 +205,7 @@ void informacionPacientes (pacientes datosPacientes[100][100], int camaFila, int
 
 				validacionDNI(datosPacientes, i, j);
 
-			} while (!datosPacientes[i][j].DNI || datosPacientes[i][j].DNI<0);
+			} while (!datosPacientes[i][j].DNI || datosPacientes[i][j].DNI<0 || datosPacientes[i][j].DNI<1000000);
 
 			do {
 				cout<<"Ingrese la cantidad de dias internados: ";
@@ -234,7 +234,7 @@ void validacionEdad (pacientes datosPacientes[100][100], int i, int j) {
 
 void validacionDNI (pacientes datosPacientes[100][100], int i, int j) {
 
-	if (!datosPacientes[i][j].DNI || datosPacientes[i][j].DNI<0) {
+	if (!datosPacientes[i][j].DNI || datosPacientes[i][j].DNI<0 || datosPacientes[i][j].DNI<1000000) {
 		cout<<"Por favor, ingrese un DNI valido."<<endl;
 		cin.clear();
 		cin.ignore();;
